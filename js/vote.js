@@ -1,3 +1,5 @@
+//vote.js index_s4 Section Event with Ajax
+
 $(document).ready(function(){
     getCookieVoteVal();
 });
@@ -5,7 +7,6 @@ $(document).ready(function(){
 
 function getCookieVoteVal(){
     $.get("tool/vote_checked.php", function(result){
-        alert(result);
         if(result!='false'){
             var obj = JSON.parse(result);
             for (i = 0; i < obj.length; i++) { 

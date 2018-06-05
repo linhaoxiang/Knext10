@@ -1,5 +1,9 @@
-<session class="sessions s2 row">
+<session class="sessions s2 row stickySection activeSection">
+
+                <div class="title_box">
                 <h1 class="session-title col-12">About Kosovo NEXT10</h1>
+                </div>
+                
                 <div class="col-12 col-xl-6">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">

@@ -1,6 +1,9 @@
-<session class="sessions s3 row">
-                <h1 class="session-title col-12">10 Things of Kosovo</h1>
+<session class="sessions s3 row stickySection activeSection">
 
+                <div class="title_box">
+                <h1 class="session-title col-12">10 Things of Kosovo</h1>
+                </div>
+                
                 <div class="col-12 col-md-6 options">
 
                     <div class="knowing">

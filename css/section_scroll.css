@@ -1,0 +1,17 @@
+
+  .title_box{
+    height:45px;
+    background-color:transparent;
+    width: 100%;
+    z-index: 3;
+  }
+  .emty_box{
+    height:45px;
+    background-color:transparent;
+    width: 100%;
+    z-index: 3;
+  }
+  .sticky {
+    position: fixed;
+    width: 100%;
+  }

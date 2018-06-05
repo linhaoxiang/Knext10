@@ -1,5 +1,9 @@
-<session class="sessions s4 row">
+<session class="sessions s4 row stickySection activeSection">
+    
+                <div class="title_box">
                 <h1 class="session-title col-12">Future Vote</h1>
+                </div>
+
                 <div class="session-content">
                     <p>What are the 10 most important achievements of Kosovo’s democracy in the past 10 years in your opinion? plz vote 3 of it</p>
                 </div>

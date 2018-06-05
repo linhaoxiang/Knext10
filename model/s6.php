@@ -1,5 +1,9 @@
-<session class="sessions s6 row">
+<session class="sessions s6 row stickySection activeSection">
+    
+                <div class="title_box">
                 <h1 class="session-title col-12">Im Kosover</h1>
+                </div>
+
                 <div class="session-content">
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
                     <p>Until Now, We Have</p>

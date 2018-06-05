@@ -1,5 +1,9 @@
-<session class="sessions s5 row">
+<session class="sessions s5 row stickySection activeSection">
+
+                <div class="title_box">
                 <h1 class="session-title col-12">Childream</h1>
+                </div>
+                
                 <div class="col-8 ytframe">
                     <iframe id="ytplayer" type="text/html"
                     src="https://www.youtube.com/embed/izO7v8UIAdY?controls=0&disablekb=1&fs=0&rel=0&showinfo=0&color=white"
