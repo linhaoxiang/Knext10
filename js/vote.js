@@ -1,13 +1,14 @@
 $(document).ready(function(){
     
 });
+
 //voteAdd(this,1);
+var onClickElement;
 function voteAdd(element,Voteval){
-    element = $(this);
-    $.post("tool/vote_add.php",{val:Voteval},function(result){
+    onClickElement = jQuery(element);
+    $.post("tool/vote_add.php",{val:Voteval},function(result, element){
         if(result=='true'){
-            element.addClass('btn-outline-secondary_active');
-            alert("Function OK!!");
+            onClickElement.addClass('btn-outline-secondary_active');
         }else{
             alert(result);
         }
