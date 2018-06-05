@@ -5,12 +5,14 @@ $aYearTime = 365 * 24 * 60 * 60;
 
 if (isset($_COOKIE["user_id"])&&isset($_COOKIE["vote_time"])){
   if(time() > ((int)$_COOKIE["vote_time"])+$aDayTime){
-    echo "newSection";
+    //echo "newSection";
+    echo "false";
   }else{
     checkVoteVal();
   }
 }else{
-  echo "newUser";
+  //echo "newUser";
+  echo "false";
 }
 
 function checkVoteVal(){
@@ -22,7 +24,8 @@ function checkVoteVal(){
   $totalRows_Recordset = mysql_num_rows($Recordset);
 
   if($totalRows_Recordset<=0){
-    echo "NoRecords";
+    //echo "NoRecords";
+    echo "false";
   }else{
     $return = [];
     do {
