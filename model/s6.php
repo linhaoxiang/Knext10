@@ -14,9 +14,25 @@
                         <div class="types type2">Social Kosovar</div>
                         <div class="types type3">Kind Kosovar</div>
                     </div>
-                    <div class="pie-chart-frame col-6"><img src="img/pie-chart-frame.svg" alt="">
-                        <div class="pie-chart-content"></div>
+
+                    <div class="pie-chart-frame col-6">
+                        <img src="img/pie-chart-frame.svg" alt="">
+                        
+                        
+
+                        <div class="pie-chart-content">
+
+                            <svg class="svg-circle" viewBox="0 0 32 32">
+                                <circle class="circle5" r="16" cx="16" cy="16"/>
+                                <circle class="circle4" r="16" cx="16" cy="16"/>
+                                <circle class="circle3" r="16" cx="16" cy="16"/>
+                                <circle class="circle2" r="16" cx="16" cy="16"/>
+                                <circle class="circle1" r="16" cx="16" cy="16"/>
+                                <circle class="circle0" r="16" cx="16" cy="16"/>
+                            </svg>
+                        </div>
                     </div>
+
                     <div class="pie-chart-types col-3">
                         <div class="types type4">Activist Kosovar</div>
                         <div class="types type5">Ccreative Kosovar</div>

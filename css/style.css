@@ -198,6 +198,7 @@ h6 {
   position: absolute;
 }
 .s6 .pie-chart .pie-chart-content {
+  padding: 10px;
   position: absolute;
   background-color: whitesmoke;
   height: 100%;

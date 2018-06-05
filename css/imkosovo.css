@@ -1,0 +1,46 @@
+.svg-circle{
+    width: 100%;
+    height: auto;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+}
+  
+circle.circle0{
+    fill: transparent;
+    stroke: #eee;
+    stroke-width: 32;
+    stroke-dasharray: 10 100;
+}
+  
+circle.circle1{
+    fill: transparent;
+    stroke: #ccc;
+    stroke-width: 32;
+    stroke-dasharray: 30 100;
+}
+  
+circle.circle2{
+    fill: transparent;
+    stroke: #aaa;
+    stroke-width: 32;
+    stroke-dasharray: 50 100;
+}
+circle.circle3{
+    fill: transparent;
+    stroke: #777;
+    stroke-width: 32;
+    stroke-dasharray: 60 100;
+}
+circle.circle4{
+    fill: transparent;
+    stroke: #444;
+    stroke-width: 32;
+    stroke-dasharray: 70 100;
+}
+  
+circle.circle5{
+    fill: #000;
+    stroke: #000;
+    stroke-width: 32;
+    stroke-dasharray: 101 100;
+}
