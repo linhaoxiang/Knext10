@@ -19,14 +19,14 @@ function newUser(){
   setcookie("user_id", $lastId, time()+$aYearTime);
   setcookie("vote_time", time(), time()+$aYearTime);
   //echo "newUser:".$lastId;
-  checkTime();
+  addVoteRecord($lastId);
 }
 
 function checkTime(){
   global $aDayTime, $aYearTime;
   if(time()>((int)$_COOKIE["vote_time"])+$aDayTime){
     setcookie("vote_time", time(), time()+$aYearTime);
-    addVoteRecord();
+    addVoteRecord($_COOKIE["user_id"]);
     //echo "Update Time ".time()." ;<br/>";
   }else{
     checkVoteExist();
@@ -55,7 +55,7 @@ function checkVoteOver(){
   $row_Recordset = mysql_fetch_assoc($Recordset);
   $totalRows_Recordset = mysql_num_rows($Recordset);
   if($totalRows_Recordset<3){
-    addVoteRecord();
+    addVoteRecord($_COOKIE["user_id"]);
   }else{
     echo "dataExcess";
   }
@@ -63,10 +63,10 @@ function checkVoteOver(){
   //echo "<br/>".$totalRows_Recordset."<br/>";
 }
 
-function addVoteRecord(){
+function addVoteRecord($userID){
   global $database_Conn_kosovo, $Conn_kosovo;
   $insertSQLnew = sprintf("INSERT INTO vote_data (vote_user_id, vote_data, vote_time) VALUES (%s, %s, %s)",
-                       GetSQLValueString($_COOKIE["user_id"], "int"),
+                       GetSQLValueString($userID, "int"),
                        GetSQLValueString($_POST['val'], "int"),
                        GetSQLValueString(time(), "int"));
   mysql_select_db($database_Conn_kosovo, $Conn_kosovo);

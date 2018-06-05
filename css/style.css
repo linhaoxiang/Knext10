@@ -222,6 +222,13 @@ h6 {
 .btn-outline-secondary:hover {
   color: #002AFB;
 }
+
+.btn-outline-secondary_active {
+  color: #002AFB;
+  background-color: #fdca3a;
+}
+
+
 @media (max-width: 1200px) {
   .navbar img {
     width: 120px;
