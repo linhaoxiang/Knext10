@@ -3,7 +3,7 @@
                 <div class="session-content">
                     <p>What are the 10 most important achievements of Kosovo’s democracy in the past 10 years in your opinion? plz vote 3 of it</p>
                 </div>
-                <button type="button" class="btn btn-outline-secondary">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteAdd(this,1);">
                 is the declaration of its independence
                 </button>
                 <button type="button" class="btn btn-outline-secondary">

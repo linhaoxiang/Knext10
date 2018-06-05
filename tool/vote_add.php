@@ -18,8 +18,8 @@ function newUser(){
   $lastId = mysql_insert_id();
   setcookie("user_id", $lastId, time()+$aYearTime);
   setcookie("vote_time", time(), time()+$aYearTime);
-  echo "newUser:".$lastId;
-
+  //echo "newUser:".$lastId;
+  checkTime();
 }
 
 function checkTime(){
