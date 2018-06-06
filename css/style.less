@@ -4,20 +4,18 @@
 @color-Y-Sec: #FED863;
 
 *{
-
     color: @color-B-Pri;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 16  px;
+    font-size: 14 px;
     box-sizing: border-box;
     justify-content: center;
 }
 
 h1, .h1 { 
     font-size: 1.5rem; 
-    margin-top: 120px; 
+    margin-top: 10px; 
     margin-bottom: 2rem; 
 }
-
 h4{
     color: @color-B-Pri;
     font-size: 1.3em;
@@ -29,18 +27,13 @@ h6{
     font-weight: 300; 
 }
 .session-title{
-    padding-left: 340px;
+    padding-left: 280px;
 }
 .session-content{
     width: 100%;
-    padding-left: 340px;
-    padding-right: 170px; 
-
+    padding-left: 325px;
+    padding-right: 170px;    
 }
-
-.options{
-}
-
 .navbar{
     z-index: 200;
     position: fixed;
@@ -48,13 +41,12 @@ h6{
     align-items: flex-end;
     height: 100px;
     padding-bottom: 0;
-    .nav-BG{        
+    .nav-BG{
         height: 100%;
-        margin-left: -50px;
         margin: 0 1rem;
         img{
-            margin-left: -50px;
-            margin-top: -50px;
+            margin-left: -120px;
+            margin-top: -60px;
             width: 400px;}
     }
     ul{
@@ -70,17 +62,15 @@ h6{
         background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
         position: absolute;
         z-index: -10;
-        width: 750px; 
+        width: 800px; 
         height: 100px;
-        margin-left: 240px;
-        // background: white;
+        margin-left: 260px;
         transform: skewX(-17deg);
         border-bottom: 2rem solid white;
     }
-    #menu{
-        
+    #menu{        
         z-index: 500;
-        margin-left: -345px;
+        margin-left: -275px;
         border-bottom: 1px solid @color-B-Sec;
         flex-grow: 1;
         justify-content: flex-start;
@@ -91,9 +81,11 @@ h6{
                 color: @color-B-Pri;
                 padding-right: 1rem; }   }
         
-    }    
-}
-.main-content{
+    }
+    .nav-link{        
+        cursor: pointer;    
+        padding: 0.5rem 0 0.5rem 1rem;
+    }
 }
 .sessions{
     p{width: 100%;}
@@ -106,13 +98,14 @@ h6{
         width: 100%;
     }
     .mainInfo{
-        margin-left: -4rem;
+        margin-left: -4.5rem;
         display: flex;
         flex-direction: column;
         align-items: baseline;
         justify-content: center;
-        padding-top: 15%;
+        padding-top: 20%;
     }
+    p{font-size: 0.8rem; margin-top: -.5rem;}
 }
 .s2{
     .carousel-inner{
@@ -140,7 +133,6 @@ h6{
             flex-wrap: wrap;
             justify-content: space-between;
             align-content: space-between;
-            // margin-left: -100%;
             padding: 3em;
             background-color: rgba(255,255,255,0.6);
             border: 1px solid @color-Y-Sec;
@@ -213,11 +205,11 @@ h6{
             }
         }
         .pie-chart-content{
+            padding: 10px;
             position: absolute;
             background-color: whitesmoke;
             height: 100%;
             width: 100%;
-            // padding-bottom: 100%;
             z-index: -100;
         }
     }
@@ -233,7 +225,6 @@ h6{
     }
 
 }
-
 .s8 {
     height:500px;
     background: linear-gradient(@color-Y-Pri, @color-Y-Sec);
@@ -247,16 +238,17 @@ h6{
     }
 }
 
-
 // Bootstrap Fix
 
 .btn-outline-secondary:hover{
     color: #002AFB;
 }
-
 @media (max-width: 1200px) {
-    .navbar img{ 
-        width: 120px;
+    .navbar{
+        height: 60px;
+        img{
+            width: 120px;
+        }
     }
     .nav-BG, .menuBG, #menu{
         display: none;
@@ -264,8 +256,35 @@ h6{
     .session-title{
         padding-left: 160px;
     }
+    .s1{
+        flex-direction: column;
+        .KV img{
+            position: absolute;
+            margin-left: -230px;
+            margin-top: -80px;
+            width: 200%;
+        }
+        .mainInfo{
+            background: linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,1));
+            align-items: end;
+            margin: 0; 
+            border-right:5px solid white;
+        }
+        p{
+            text-align: right;
+        }
+    }
 }
 @media (max-width: 767.98px) {
+    *{
+        font-size: 12px;
+    }
+    .session-content{
+        padding: 0;
+        text-align: center;
+    }
+    p{
+    margin-top: 1rem;}
     .s3{
         flex-direction: column-reverse;
     }
