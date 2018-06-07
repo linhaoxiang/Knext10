@@ -19,4 +19,5 @@
                 <li class="social-links"><i class="fab fa-instagram"><a href="google.com"></a></i></li>
                 <li class="social-links"><i class="fab fa-facebook-f"><a href="google.com"></a></i></li>
             </ul>
+            
 </div>
