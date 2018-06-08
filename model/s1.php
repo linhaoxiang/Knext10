@@ -1,5 +1,10 @@
 <session class="sessions s1 row">
-                <div class="col-12 col-md-9 KV"><img src="img/s01_BG.png" alt=""></div>
+                <div class="col-12 col-md-9 KV">
+                    <img src="img/s01_Ribbons.svg" alt="">
+                    <div class="type"><img src="img/s01_TypeA.svg" alt=""></div>
+                    <div class="type"><img src="img/s01_TypeB.svg" alt=""></div>
+                    <img src="img/s01_main.png" alt="">
+                </div>
                 <div class="col-12 col-md-3 mainInfo">
                     <h6>Date:</h6>
                     <h4>June 27- July 22, 2018</h4>
@@ -12,4 +17,5 @@
                     <h6>Co-organizers:</h6>
                     <h4>Kosovo Museum, Termokiss, Zombie Soup</h4>
                 </div>
+                <div class="endingspace"></div>
 </session>

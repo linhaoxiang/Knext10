@@ -33,4 +33,6 @@
                     <p>The exhibition is the first cultural event cooperated between Taiwan and Kosovo, which hopes to open a door for further cultural exchanges between Southeast Asia and Europe.</p>
                     <p>E-mail: taiwan.kosovo@gmail.com</p>
                 </div>
+                
+                <div class="endingspace"></div>
 </session>

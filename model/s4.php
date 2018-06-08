@@ -37,6 +37,7 @@
                 <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,20);" id="vote_20">
                 Fight Against Nepotism and Corruption
                 </button>
+                <div class="endingspace"></div>
 
 
 </session>
