@@ -10,27 +10,28 @@
 
                 <div class="col-12 col-md-6 options">
 
-                    <div class="knowing">
+                    <div id="knowing">
                         <div class="knowing-content">
 
                         Yahoo Travel has rated Kosovo’s macchiato as the best in the world in 2014. Macchiato in Kosovo features in boiled milk and the creamy top. You can find perfect macchiato in almost every cafe shops of Kosovo.
 The beans are never burned, but the drink has a strong espresso flavor. The milk is sweet, and its frothy milk foam is lighter than air.
 
                         </div>
-                        <button type="button" class="btn btn-outline-secondary btn-lg ">back</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg" onclick="back();">back</button>
                         <button type="button" class="btn btn-primary btn-lg "><span class="fab fa-facebook-f"></span>Share</button>      
                     </div>
 
-                        <button type="button" class="btn btn-outline-secondary btn-block options">The Best Macchiato in the World</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">60% of the population is under 35 years old</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">A remarkable Internet penetration rate in Europe</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">Religious tolerance since forever</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">Underground resource worth more than 1 trillion dollars</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">Kosovo’s love for USA</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">Active civil society</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">Talented footballers</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">In the Name of Love</button>
-                        <button type="button" class="btn btn-outline-secondary btn-block options">The first female president in Balkan</button>  
+                        <div class="ohbaby">AAAAAAAA</div>
+                        <button type="button" data="ohoh1" class="s3btn btn btn-outline-secondary btn-block options" >The Best Macchiato in the World</button>
+                        <button type="button" data="ohoh2" class="s3btn btn btn-outline-secondary btn-block options" >60% of the population is under 35 years old</button>
+                        <button type="button" data="ohoh3" class="s3btn btn btn-outline-secondary btn-block options" >A remarkable Internet penetration rate in Europe</button>
+                        <button type="button" data="ohoh444" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Religious tolerance since forever</button>
+                        <button type="button" data="ohoh555" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Underground resource worth more than 1 trillion dollars</button>
+                        <button type="button" data="ohoh666" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Kosovo’s love for USA</button>
+                        <button type="button" data="oho7" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Active civil society</button>
+                        <button type="button" data="ohoh888" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Talented footballers</button>
+                        <button type="button" data="oho99999" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">In the Name of Love</button>
+                        <button type="button" data="ohoh100000" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">The first female president in Balkan</button>  
                 </div>
                 <div class="col-12 col-md-6">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

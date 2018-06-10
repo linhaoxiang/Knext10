@@ -1,11 +1,11 @@
 <session class="sessions s1 row">
-                <div class="col-12 col-md-9 KV">
-                    <img src="img/s01_Ribbons.svg" alt="">
-                    <div class="type"><img src="img/s01_TypeA.svg" alt=""></div>
-                    <div class="type"><img src="img/s01_TypeB.svg" alt=""></div>
-                    <img src="img/s01_main.png" alt="">
+                <div class="col-12 KV">
+                    <img id="typeB" src="img/s01_TypeB.svg" alt="">
+                    <img id="ribbons" src="img/s01_Ribbons.svg" alt="">
+                    <img id="visual" src="img/s01_main.png" alt="">
+                    <img id="typeA" src="img/s01_TypeA.svg" alt="">
                 </div>
-                <div class="col-12 col-md-3 mainInfo">
+                <div class="col-12 mainInfo">
                     <h6>Date:</h6>
                     <h4>June 27- July 22, 2018</h4>
                     <h6>Venue:</h6>
