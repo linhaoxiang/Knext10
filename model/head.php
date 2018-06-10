@@ -16,6 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     
+    <script src="js/style.js"></script>
     <script src="js/kosovowall.js"></script>
     <script src="js/section_scroll.js?t=<?php echo time(); ?>"></script>
     <script src="js/vote.js?t=<?php echo time(); ?>"></script>

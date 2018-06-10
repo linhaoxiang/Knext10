@@ -4,16 +4,24 @@ var pageScrollTop = 0;
 var navbarHeight = 100;
 
 $(document).ready(function(){
+    detectDevices();
     updatePageScrollTop();
     updateStickyElement();
     updateActiveSection();
 });
 
 $(document).scroll(function() {
+    detectDevices();
     updatePageScrollTop();
     updateStickyElement();
     updateActiveSection();
 });
+
+function detectDevices(){
+  if($(window).width() < 1200){
+    navbarHeight = 25;
+  }
+}
 
 function updatePageScrollTop(){
     pageScrollTop = window.pageYOffset;

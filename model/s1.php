@@ -12,6 +12,7 @@
                     <h4>Kosovo Museum, Lapidarium</h4><p>St.Nazim Gafurri, Pristina</p>
                     <h6>Opening Hours</h6>
                     <h4>11:00-19:00</h4><p> (Closed on Monday)</p>
+                    <div class="mobilespace"></div>
                     <h6>Organizer:</h6>
                     <h4>Taiwan and Kosovo Cultural Exchange Associaiton</h4>
                     <h6>Co-organizers:</h6>

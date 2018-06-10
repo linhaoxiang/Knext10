@@ -12,6 +12,7 @@
 }
 
 h1, .h1 { 
+    z-index: 3000;
     font-size: 1.5rem; 
     margin-top: 10px; 
     font-weight: 600;
@@ -42,6 +43,9 @@ h6{
     align-items: flex-end;
     height: 100px;
     padding-bottom: 0;
+    // width: 100%;
+    right: 1rem;
+    left: 1rem;
     .nav-BG{
         height: 100%;
         margin: 0 1rem;
@@ -75,18 +79,28 @@ h6{
         border-bottom: 1px solid @color-B-Sec;
         flex-grow: 1;
         justify-content: flex-start;
+        align-self: flex-end;
         .space{ flex-grow: 1; }
         .social-links{
+            z-index: 1000;
             font-size: 1.5rem;
             .fab{
+                cursor: pointer;
                 color: @color-B-Pri;
-                padding-right: 1rem; }   }
-        
+                padding-right: 1rem; }   
+        }
+
     }
     .nav-link{        
         cursor: pointer;    
         padding: 0.5rem 0 0.5rem 1rem;
     }
+    .mobile-menu-button{
+        display: none;
+    }
+}
+.mobile-menu{
+    display: none;
 }
 .session-content{
     p{ width: 100%; margin-left: -45px; }
@@ -276,38 +290,65 @@ h6{
 .btn-outline-secondary:hover{
     color: #002AFB;
 } 
-@media (max-width: 1400px) {
-    .s1{
-        h6{ margin-top: .3rem;}
-        p{ margin-bottom: 0; }
-    }
-}   
 @media (max-width: 1200px) {
     .navbar{
+        padding: 0;
+        background: #fff;
         height: 60px;
+        padding-top: 10px;
         img{
             width: 120px;
         }
+        #menu{ 
+            margin: 0; border: none; 
+            align-self: flex-start;
+        }
+        .nav-item{
+            display: none;
+        }
+        .mobile-menu-button{
+            display: block;
+        }
+        i{
+            font-size: 1.5rem;
+        }
     }
-    .nav-BG, .menuBG, #menu{
+    .mobile-menu{
+        display: block;
+        right: 0;
+        z-index: 400;
+        background-color: @color-B-Pri;
+        position: fixed;
+        margin-top: 60px;
+        overflow: hidden;
+        height: 0px;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        padding: 0;
+        padding-right: 3rem;
+        li{
+            list-style: none;  
+            a{
+                color: white;
+            }
+        }
+    }
+    .nav-BG,.menuBG{
         display: none;
     }
     .sessions{
-        p{width: 100%; margin: auto;}
+        // p{width: 100%; margin: auto;}
     }
     .session-title{
-        padding-left: 160px;
+        padding-left: 140px;
     }
     .s1{
         flex-direction: column;
         .KV img{
             position: absolute;
-            margin-left: -230px;
-            margin-top: -80px;
-            width: 200%;
         }
         .mainInfo{
-            background: linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,1));
+            // background: linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,1));
             align-items: end;
             margin: 0; 
             border-right:5px solid white;
@@ -320,13 +361,9 @@ h6{
 }
 @media (max-width: 767.98px) {
     *{
-        font-size: 12px;
-    }
-    #typeA ,#typeB{
-        display: none;
+        font-size: 14px;
     }
     h4, h6{
-        width: 100%;
         text-align: right;
     }
     .session-content{
@@ -335,7 +372,49 @@ h6{
     }
     p{
     margin-top: 1rem;}
+    .endingspace{ height: 1rem;}
+    .s1{
+        .KV{ top: 80px; }
+        img{
+            width: 100%;
+        }
+        #typeA ,#typeB{
+            display: none;
+        }
+        #ribbons{
+            width: 130%;
+            top: -20%;
+            left: -25%;
+        }
+        #visual{
+            left: -25%;
+            top: 0%;
+            width: 130%;
+        }
+        .mainInfo{
+            align-items: flex-end;
+            padding: 0 1rem;
+            padding-top: 80px;
+            .mobilespace{
+                width: 100%;
+                display: block;
+                height:100px;
+            }
+            h4, h6, p{
+                display: inline-block;
+                background: #fff;                       
+                text-align: right;
+            }
+        }
+    }
     .s3{
         flex-direction: column-reverse;
     }
+}
+
+
+// styleJS
+
+.show{
+    height: 400px;
 }
