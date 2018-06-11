@@ -17,9 +17,19 @@ $(document).scroll(function() {
     updateActiveSection();
 });
 
+$(window).resize(function() {
+  detectDevices();
+  updatePageScrollTop();
+  updateStickyElement();
+  updateActiveSection();
+});
+
+
 function detectDevices(){
   if($(window).width() < 1200){
     navbarHeight = 25;
+  }else{
+    navbarHeight = 100;
   }
 }
 

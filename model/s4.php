@@ -7,34 +7,34 @@
                 <div class="session-content">
                     <p>What are the 10 things you want to change of Kosovo’s democracy or society?  plz vote 3 of it</p>
                 </div>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,11);" id="vote_11">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,1);" id="vote_1">
                 Reform of Judical System
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,12);" id="vote_12">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,2);" id="vote_2">
                 Reform of Education System
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,13);" id="vote_13">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,3);" id="vote_3">
                 Support for Culture, Arts and Sports
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,14);" id="vote_14">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,4);" id="vote_4">
                 Economic Development
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,15);" id="vote_15">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,5);" id="vote_5">
                 Visa Liberalization 
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,16);" id="vote_16">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,6);" id="vote_6">
                 Racial Equality
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,17);" id="vote_17">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,7);" id="vote_7">
                 Media Freedom and Development
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,18);" id="vote_18">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,8);" id="vote_8">
                 Gender Equality
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,19);" id="vote_19">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,9);" id="vote_9">
                 Regional Integration
                 </button>
-                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,20);" id="vote_20">
+                <button type="button" class="btn btn-outline-secondary" onclick="voteEvent(this,10);" id="vote_10">
                 Fight Against Nepotism and Corruption
                 </button>
                 <div class="endingspace"></div>
