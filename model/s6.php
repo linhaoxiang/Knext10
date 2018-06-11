@@ -11,9 +11,9 @@
                 
                 <div class="pie-chart col-12">
                     <div class="pie-chart-types col-3">
-                        <div class="types type1">Knowledgeable Kosovar</div>
-                        <div class="types type2">Social Kosovar</div>
-                        <div class="types type3">Kind Kosovar</div>
+                        <div class="types type0">Knowledgeable Kosovar</div>
+                        <div class="types type1">Social Kosovar</div>
+                        <div class="types type2">Kind Kosovar</div>
                     </div>
 
                     <div class="pie-chart-frame col-6">
@@ -35,9 +35,9 @@
                     </div>
 
                     <div class="pie-chart-types col-3">
-                        <div class="types type4">Activist Kosovar</div>
-                        <div class="types type5">Ccreative Kosovar</div>
-                        <div class="types type6">Activist Kosovar</div>
+                        <div class="types type3">Activist Kosovar</div>
+                        <div class="types type4">Ccreative Kosovar</div>
+                        <div class="types type5">Activist Kosovar</div>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Do the test Now!</button>

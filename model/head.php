@@ -18,6 +18,7 @@
     
     
     <script src="js/style.js"></script>
+    <script src="js/mission.js"></script>
     <script src="js/kosovowall.js?t=<?php echo time(); ?>"></script>
     <script src="js/section_scroll.js?t=<?php echo time(); ?>"></script>
     <script src="js/vote.js?t=<?php echo time(); ?>"></script>

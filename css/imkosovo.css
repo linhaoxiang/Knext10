@@ -5,42 +5,55 @@
     border-radius: 50%;
 }
   
-circle.circle0{
+circle.circle0, .type0:before{
     fill: transparent;
-    stroke: #eee;
+    color: #002AF8;
+    stroke: #002AF8;
+    background-color: #002AF8;
     stroke-width: 32;
     stroke-dasharray: 10 100;
+
 }
   
-circle.circle1{
+circle.circle1, .type1:before{
     fill: transparent;
-    stroke: #ccc;
+    color: #FEA56A;
+    stroke: #FEA56A;
+    background-color: #FEA56A;
     stroke-width: 32;
     stroke-dasharray: 30 100;
 }
   
-circle.circle2{
+circle.circle2, .type2:before{
     fill: transparent;
-    stroke: #aaa;
+    color: #5C8DFC;
+    stroke: #5C8DFC;
+    background-color: #5C8DFC;
     stroke-width: 32;
     stroke-dasharray: 50 100;
 }
-circle.circle3{
+circle.circle3, .type3:before{
     fill: transparent;
-    stroke: #777;
+    color: #FE646A;
+    stroke: #FE646A;
+    background-color: #FE646A;
     stroke-width: 32;
     stroke-dasharray: 60 100;
 }
-circle.circle4{
+circle.circle4, .type4:before{
     fill: transparent;
-    stroke: #444;
+    color: #2CD8E1;
+    stroke: #2CD8E1;
+    background-color: #2CD8E1;
     stroke-width: 32;
     stroke-dasharray: 70 100;
 }
   
-circle.circle5{
-    fill: #000;
-    stroke: #000;
+circle.circle5, .type5:before{
+    fill: transparent;
+    color: #FED863;
+    stroke: #FED863;
+    background-color: #FED863;
     stroke-width: 32;
     stroke-dasharray: 101 100;
 }
@@ -49,5 +62,6 @@ circle.circle5{
     widows: 100%;
     height: 0px;
     padding-bottom: 56%;
-    background-color: #777;
+    background-color: none;
 }
+

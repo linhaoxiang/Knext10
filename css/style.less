@@ -10,6 +10,7 @@
     box-sizing: border-box;
     justify-content: center;
 }
+button
 
 h1, .h1 { 
     z-index: 3000;
@@ -178,7 +179,7 @@ h6{
             border: 1px solid @color-B-Sec;
             border-radius: 10px;
             // transform: translateX(-105%);
-            background-color: rgba(255,255,255,.5);
+            background-color: rgba(255,255,255,1);
             transition-duration: .5s;
             transition-timing-function: ease-out;
             button{
@@ -233,12 +234,11 @@ h6{
                 text-align: center;
                 position: relative;
                 &:before{
-                    content: 'o';
+                    content: '.';
                     display: block;
                     width: 2rem;
                     height: 2rem;
                     border-radius: 100%;
-                    background-color: @color-B-Pri;
                     margin: auto;
                 }
             }
@@ -266,9 +266,47 @@ h6{
 }
 .s7{
     .mission-generater{
-        height: 0;
-        padding-bottom: 48%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        // background-image: url("../img/KmissionFrame.svg");
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-attachment: scroll;
+        // background-size: contain;
+        img{
+            // display: block;
+        }
+        .missionGO{
+            position: absolute;
+            font-size: 1.5rem;
+            top: 15%;
+            height: 70%;
+            width: 70%;
 
+            // position: absolute;
+            // margin: 15% 40%;
+        }
+        .mission-content{
+            display: none;
+            ::before{
+                content:"Mission:";
+            }
+            position: absolute;
+            font-size: 1.5rem;
+            text-align: right;
+            bottom: 10%;
+            right: 17%;
+            // position: absolute;
+        }
+        .mission-content::before{
+                content:"Mission: ";
+            }
+    }
+    .s7-note{
+        text-align: center;
     }
 
 }
@@ -422,4 +460,44 @@ h6{
 .btn-outline-secondary_active{
     background-color: #FECB3A;
     color: #fff;
+}
+.missionKart{
+    z-index: 500;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: -250px;
+    bottom: 100px;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    padding-left: 150px;
+    transition-duration: 1s;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.2rem;
+    .mission-alert{
+        position: absolute;
+        top:11px;
+        left: 28px;
+     
+    }
+    .missionKart-BG{
+        position: absolute;
+        z-index: -10;
+        width: 410px;
+        height: 100%;
+        right: -10px;
+        top:0;
+        transform: skewX(-7deg);
+        background-color: @color-Y-Pri;
+    }
+    img{
+        left: 10px;
+        position: absolute;
+        height: 80px;
+    }
+}
+.missionKart-show{
+    right: 0px;
 }
