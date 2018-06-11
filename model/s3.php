@@ -21,7 +21,7 @@ The beans are never burned, but the drink has a strong espresso flavor. The milk
                         <button type="button" class="btn btn-primary btn-lg "><span class="fab fa-facebook-f"></span>Share</button>      
                     </div>
 
-                        <div class="ohbaby">AAAAAAAA</div>
+                        <div class="ohbaby"></div>
                         <button type="button" data="ohoh1" class="s3btn btn btn-outline-secondary btn-block options" >The Best Macchiato in the World</button>
                         <button type="button" data="ohoh2" class="s3btn btn btn-outline-secondary btn-block options" >60% of the population is under 35 years old</button>
                         <button type="button" data="ohoh3" class="s3btn btn btn-outline-secondary btn-block options" >A remarkable Internet penetration rate in Europe</button>
