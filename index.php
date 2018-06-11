@@ -19,6 +19,7 @@
         <?php require_once('model/footer.php'); ?>
         
     </div>
+    <script src="js/imkosovo.js?t=<?php echo time(); ?>"></script>
 </body>
 </html>
 

@@ -44,3 +44,10 @@ circle.circle5{
     stroke-width: 32;
     stroke-dasharray: 101 100;
 }
+
+.s5-img{
+    widows: 100%;
+    height: 0px;
+    padding-bottom: 56%;
+    background-color: #777;
+}

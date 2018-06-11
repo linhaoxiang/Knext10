@@ -14,7 +14,17 @@ $(".onbaby").css("back","block");
 //     // $('.knowing-content').text($(this.attr("data"));
 // }
 
-function back(){
-    $('#knowing').css("transform","translateX(-105%)");
+$(document).ready(function(){
+    knowingToggle(true);
+})
+
+function knowingToggle(toggle){
+    if(toggle==true){
+        $('#knowing').css("transform","translateX(-105%)");
+    }else{
+        $('#knowing').css("transform","translateX(0%)");
+    }
+    
 }
+
 

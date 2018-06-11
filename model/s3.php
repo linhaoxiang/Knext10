@@ -25,13 +25,13 @@ The beans are never burned, but the drink has a strong espresso flavor. The milk
                         <button type="button" data="ohoh1" class="s3btn btn btn-outline-secondary btn-block options" >The Best Macchiato in the World</button>
                         <button type="button" data="ohoh2" class="s3btn btn btn-outline-secondary btn-block options" >60% of the population is under 35 years old</button>
                         <button type="button" data="ohoh3" class="s3btn btn btn-outline-secondary btn-block options" >A remarkable Internet penetration rate in Europe</button>
-                        <button type="button" data="ohoh444" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Religious tolerance since forever</button>
-                        <button type="button" data="ohoh555" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Underground resource worth more than 1 trillion dollars</button>
-                        <button type="button" data="ohoh666" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Kosovo’s love for USA</button>
-                        <button type="button" data="oho7" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Active civil society</button>
-                        <button type="button" data="ohoh888" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">Talented footballers</button>
-                        <button type="button" data="oho99999" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">In the Name of Love</button>
-                        <button type="button" data="ohoh100000" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowing();">The first female president in Balkan</button>  
+                        <button type="button" data="ohoh444" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">Religious tolerance since forever</button>
+                        <button type="button" data="ohoh555" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">Underground resource worth more than 1 trillion dollars</button>
+                        <button type="button" data="ohoh666" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">Kosovo’s love for USA</button>
+                        <button type="button" data="oho7" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">Active civil society</button>
+                        <button type="button" data="ohoh888" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">Talented footballers</button>
+                        <button type="button" data="oho99999" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">In the Name of Love</button>
+                        <button type="button" data="ohoh100000" class="s3btn btn btn-outline-secondary btn-block options" onclick="knowingToggle(false);">The first female president in Balkan</button>  
                 </div>
                 <div class="col-12 col-md-6">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

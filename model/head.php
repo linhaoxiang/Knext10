@@ -18,9 +18,9 @@
     
     
     <script src="js/style.js"></script>
-    <script src="js/kosovowall.js"></script>
+    <script src="js/kosovowall.js?t=<?php echo time(); ?>"></script>
     <script src="js/section_scroll.js?t=<?php echo time(); ?>"></script>
     <script src="js/vote.js?t=<?php echo time(); ?>"></script>
-    <script src="js/imkosovo.js?t=<?php echo time(); ?>"></script>
+    
 
     <title>Kosovo NEXT 10</title>
