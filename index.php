@@ -17,6 +17,7 @@
             <?php require_once('model/s7.php'); ?>
         </div> 
         <?php require_once('model/footer.php'); ?>
+        
     </div>
 </body>
 </html>

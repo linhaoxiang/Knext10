@@ -7,7 +7,7 @@ $(".onbaby").css("back","block");
 //   function(){
 //     $('#knowing').css("transform","translateX(0%)");
 //   }
-);
+
 
 // function knowing(){
 //     $('#knowing').css("transform","translateX(0%)");

@@ -40,6 +40,31 @@
                         <div class="types type6">Activist Kosovar</div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary btn-lg ">Do the test Now!</button>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Do the test Now!</button>
 
 </session>
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal" style="height:100%;">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        
+      <!-- Modal body -->
+      <div class="modal-body row">
+        <div class="qa_main col-12 col-sm-12 col-md-8 col-lg-9 col-xl-10">
+
+
+
+        </div>
+        <div class="qa_process col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
+            <div></div>
+            <div class="qa_process_bar"></div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

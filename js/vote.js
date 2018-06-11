@@ -37,3 +37,7 @@ function voteEvent(element,Voteval){
         });
     }   
 }
+
+function voteChart(){
+    
+}

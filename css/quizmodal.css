@@ -1,0 +1,29 @@
+.modal-content{
+    width: 92%;
+    position: absolute;
+    height: 92%;
+}
+
+.modal-dialog {
+    max-width: 100%;
+    margin: 1.75rem auto;
+    padding: 4%;
+    height: 100%;
+    margin: 0px;
+}
+
+.modal-body{
+    padding: 0em 1em 0em 1em;
+}
+
+.qa_process{
+    background-color: #eee;
+}
+
+.qa_main{
+    background-color: #aaa;
+}
+
+.qa_process_bar{
+
+}
