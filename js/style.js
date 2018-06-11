@@ -1,4 +1,4 @@
 function showMenu(){
-    $('.mobile-menu').toggleClass("show");
+    $('.mobile-menu').toggleClass("show-menu");
   }
   
