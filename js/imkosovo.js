@@ -109,6 +109,10 @@ function updateEvent(initial){
 }
 
 function showAnswerModal(groupID){
+  $.post("tool/quiz_add.php",{val:groupID},function(result){
+    
+  });
+
   $('.answer_section').css('opacity','1');
   var answerInfo = "";
   switch(groupID) {
@@ -132,6 +136,7 @@ function showAnswerModal(groupID){
       break;
   }
   $('#answerContent').html(answerInfo);
+  $('#qa_final_share').attr('onclick',"fbShare("+groupID+");");
 }
 
 function redoQA(){

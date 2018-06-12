@@ -182,7 +182,7 @@
              <div id="answerContent"></div>
              
              <button type="button" class="btn btn-outline-secondary btn-lg qa_final_btn" onclick="redoQA();">redo!</button>
-             <button type="button" class="btn btn-primary btn-lg qa_final_btn"><span class="fab fa-facebook-f"></span>Share</button>      
+             <button type="button" class="btn btn-primary btn-lg qa_final_btn" id="qa_final_share" onclick="fbShare(1);"><span class="fab fa-facebook-f"></span>Share</button>      
                     
             </div>
 
