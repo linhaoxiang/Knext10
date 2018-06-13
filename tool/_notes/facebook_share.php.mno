@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_Resys" value="name:id;datatype:int,name:self_domain;datatype:string,name:facebook_app_id;datatype:string" />	<infoitem key="UD_RecShare" value="name:share_id;datatype:int,name:share_img;datatype:string,name:share_title;datatype:string,name:share_description;datatype:string" /></info>

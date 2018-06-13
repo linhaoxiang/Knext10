@@ -90,7 +90,7 @@
 
 
 .answer_section{
-    background-color:#eee;
+    background-color:transparent;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
@@ -104,6 +104,7 @@
 .qa_final_btn{
     width: 40%;
     margin: 5%;
+    float: left;
 
 }
 
