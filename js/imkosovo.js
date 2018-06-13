@@ -136,7 +136,7 @@ function showAnswerModal(groupID){
       break;
   }
   $('#answerContent').html(answerInfo);
-  $('#qa_final_share').attr('onclick',"fbShare("+groupID+");");
+  $('#qa_final_share').attr('onclick',"fbShare("+(groupID+10)+");");
 }
 
 function redoQA(){
