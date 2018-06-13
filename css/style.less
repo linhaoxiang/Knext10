@@ -196,9 +196,24 @@ h6{
     }
 }
 .s4{
-   button{
-       margin: .5rem;
-   }
+   .s4-vote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+        button{
+            margin: 5px;
+            flex-grow: 1;
+            p{ font-size: 0.7rem; margin: 0;}
+        }
+        span{
+            position: relative;
+            margin: 2rem 0;
+            margin-left: -1%;
+            background-color: @color-Y-Pri;
+        }
+    }
 }
 .s5{
     .ytframe{
@@ -394,6 +409,19 @@ h6{
         p{
             text-align: right;
             padding-bottom: .5rem;
+        }
+    }
+    .s4{
+        .s4-vote{
+            width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        button{
+             width: 100%;
+         }
         }
     }
 }
