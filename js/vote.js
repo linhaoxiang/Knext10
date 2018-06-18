@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
     getCookieVoteVal();
+    voteData();
 });
 
 
@@ -23,6 +24,7 @@ function voteEvent(element,Voteval){
         $.post("tool/vote_remove.php",{val:Voteval},function(result){
             if(result=='true'){
                 onClickElement.removeClass(activeClass);
+                voteVallCount(onClickElement,false);
             }else{
                 alert(result);
             }
@@ -31,6 +33,7 @@ function voteEvent(element,Voteval){
         $.post("tool/vote_add.php",{val:Voteval},function(result){
             if(result=='true'){
                 onClickElement.addClass(activeClass);
+                voteVallCount(onClickElement,true);
             }else{
                 alert(result);
             }
@@ -38,6 +41,23 @@ function voteEvent(element,Voteval){
     }   
 }
 
-function voteChart(){
+function voteData(){
+    $.get("tool/vote_jsondata.php", function(result){
+        var obj = JSON.parse(result);
+        for (i = 1; i <= 11; i++) { 
+            $('#vote_'+i).find('p').html(obj[i]);
+        }
+    });
+}
+
+function voteVallCount(element,addRemove){
+    var exsistVal = element.find('p').html(); 
+    var countVal = parseInt(exsistVal);
     
+    if(addRemove==true){
+        countVal++;
+    }else{
+        countVal--;
+    }
+    element.find('p').html(countVal);
 }
